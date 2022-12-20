@@ -1,4 +1,5 @@
 .App {
+  font-family: "Rajdhani", sans-serif;
   text-align: center;
 }
 
@@ -6,27 +7,94 @@
   height: 40vmin;
   pointer-events: none;
 }
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  height: 60px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 100vh;}
+.logoTitle {
+  margin-left: 10px;
+}
+.subNav {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
+  width: 400px;
+}
+.home {
+  height: 500px;
+  background-image: url(./assets/food.jpeg);
+  background-size: cover;
+  display: flex;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  align-items: center;
+}
+.sub_home {
+  margin-top: 70px;
+}
+
+.food_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.food_img {
+  clip-path: circle(50%);
 }
 
 .App-link {
   color: #61dafb;
 }
+.btn {
+  background-color: rgb(119, 238, 212);
+  height: 40px;
+  width: 120px;
+  border: 1px grey solid;
+  border-radius: 10px;
+}
+.meals {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 20px;
+  margin-top: 40px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.favCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +103,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+.favTitle {
+  width: 200px;
+  height: 100px;
 }

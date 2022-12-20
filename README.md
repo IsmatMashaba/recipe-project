@@ -9,7 +9,7 @@ The purpose of this assignment is to practice TypeScript
 
 ## Requirements
 
-1. Your application should have 4 pages namely: `Home`, `Recipe` ,`Favorite` and `Contact`
+1. Your application should have 4 pages namely: `Home`, `RecipePage` ,`Favorite` and `Contact`
 2. Create a form where the user can insert the meal name
 3. Using the user input above to get the recipe using this api : `https://www.themealdb.com/api/json/v1/1/search.php?s=${userInput}`. For example, if the user type `pizza` then the url will be: `https://www.themealdb.com/api/json/v1/1/search.php?s=pizza`
 4. If the recipe is not found, display this message: `Sorry we have not got this recipe yet ! `
@@ -21,7 +21,7 @@ The purpose of this assignment is to practice TypeScript
 1. Home page
    ![homePage](./src/assets/home_page.png)
 
-2. Recipe page
+2. RecipePage page
    ![recipePage](./src/assets/recipe_page.png)
 
 3. Favorite page
