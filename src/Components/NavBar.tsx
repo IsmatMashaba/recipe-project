@@ -43,7 +43,7 @@ export function NavBar({favRecipe}:Prop){
                     </Link>
                     <StyledBadge badgeContent={favCount}>
                         <Link className="link" to="/favorite">
-                            FavoriteRecipe
+                            FavoriteRecipes
                         </Link>
                     </StyledBadge>
 

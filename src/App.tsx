@@ -59,7 +59,7 @@ console.log(userInput)
             favRecipe={favRecipe}
         />
       }/>
-      <Route path='/favourite' element={
+      <Route path='/favorite' element={
         <FavoriteRecipes
             favRecipe={favRecipe}
         />}/>
